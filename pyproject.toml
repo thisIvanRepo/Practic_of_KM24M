@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel", "prompt_toolkit==3.0.47", "wcwidth==0.2.13"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assistant_team_08"
+version = "0.0.1"
+authors = [
+    { name="Dima Kisiv" },
+    { name="Denys Almazov" },
+    { name="Ivan Popovych" },
+    { name="Vladyslav Lypivets" },
+    { name="Igor Krasilich" }
+]
+description = "CLI assistant for managing contacts"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/DimaKisiv/final-project-team-08"
+Issues = "https://github.com/DimaKisiv/final-project-team-08/issues"
+
+[project.scripts]
+assistant_team_08 = "assistant_team_08:main"
