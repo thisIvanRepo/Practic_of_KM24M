@@ -13,7 +13,7 @@ python3 -m build
 To install the package, run the following command in the root directory of the project.
 This will install the package from the dist directory to site-packages.
 ```bash
-pip install --find-links ./dist assistant_team_08
+pip install
 ```
 ### Features
 **Add Contacts**:

@@ -1,14 +1,4 @@
 """
-This module provides a simple command execution framework using a registry of
-commands. Commands can be registered with the `register_command` decorator and
-then executed through the `create_command_executor` functin.
-
-Usage:
-1. Define commands using the `@register_command('command_name')` decorator.
-2. Create a command executor using `create_command_executor()`.
-3. Call the executor with the command string and arguments to execute the
-registered command.
-
 Example:
     @register_command('add')
     def add_contact(name, phone):
