@@ -1,4 +1,5 @@
 """
+
 Example:
     @register_command('add')
     def add_contact(name, phone):
@@ -361,3 +362,11 @@ def find_in_notes_text(args):
         return Messages.NotesListEmpty
 
     return notes_by_text_str
+
+@register_command('help')
+def help_command(args):
+    """
+    Command to list all available commands.
+    """
+    commands = get_commands()
+    return "Available commands:\n" + "\n".join(commands)

@@ -15,6 +15,11 @@ python src/main.py
 Це дозволить вам запустити CLI бота і взаємодіяти з ним через командний рядок.
 
 
+Для інтерфейсу всі можливих команд.
+```bash
+help
+```
+
 
 ### Build
 In the root directory of the project, run the following command to build the package.
