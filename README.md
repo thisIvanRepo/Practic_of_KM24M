@@ -1,6 +1,20 @@
 # Assistant from Team-08
 
 ## Installable Package
+Щоб запустити проект, виконайте наступні кроки:
+Встановіть залежності: Переконайтеся, що у вас встановлений Python 3.9 або новіший. Потім встановіть залежності, вказані у файлі requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+### Run
+Запустіть проект: Виконайте команду для запуску проекту:
+
+```bash
+python src/main.py
+```
+Це дозволить вам запустити CLI бота і взаємодіяти з ним через командний рядок.
+
+
 
 ### Build
 In the root directory of the project, run the following command to build the package.
@@ -28,16 +42,6 @@ pip install
   Display all contacts in the contact book.
 **Birthday Reminders**:
   List upcoming birthdays within a specified number of days.
-
-### Run
-Get the bin directory path first, usually package install executable in same directory as python executable.
-```bash
-which python3 | sed 's/\/bin\/python3/\/bin/'`
-```
-Then run the assistant
-```bash
-$PATH_TO_EXECUTABLE/assistant_team_08
-```
 
 ### Use the following commands within the program:
 *Add a contact:*
